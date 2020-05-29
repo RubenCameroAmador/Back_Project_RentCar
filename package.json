@@ -1,10 +1,9 @@
 {
   "name": "Back",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node src/index.js",
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
@@ -18,5 +17,14 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RubenCameroAmador/Back_Project_RentCar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RubenCameroAmador/Back_Project_RentCar/issues"
+  },
+  "homepage": "https://github.com/RubenCameroAmador/Back_Project_RentCar#readme",
+  "description": ""
 }
