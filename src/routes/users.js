@@ -1,15 +1,15 @@
 const express = require('express');
 const router = express.Router();
 
-const { getcars, postcars, deletecars, updatecars, getcar } = require('../controllers/car.controller')
+const { getusers, postusers, deleteusers, updateusers, getuser } = require('../controllers/user.controller')
 
-router.route('/') /* localhost:4000/car */
-  .get(getcars)
-  .post(postcars);
+router.route('/') /* localhost:4000/user */
+  .get(getusers)
+  .post(postusers);
 
 router.route('/:id')
-  .get(getcar)
-  .delete(deletecars)
-  .put(updatecars);
+  .get(getuser)
+  .delete(deleteusers)
+  .put(updateusers);
 
 module.exports = router;
